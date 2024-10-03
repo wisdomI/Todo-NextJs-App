@@ -1,7 +1,8 @@
 import { ConnectDB } from "@/lib/config/db";
 import { NextResponse } from "next/server";
 import TodoModel from "@/lib/models/TodoModel";
-import { mongo } from "mongoose";
+
+// import { mongo } from "mongoose";
 
 const LoadDB = async () => {
   await ConnectDB();

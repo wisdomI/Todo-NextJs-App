@@ -93,9 +93,7 @@ export default function Home() {
           name="description"
           placeholder="Enter Description"
           className="px-3 py-2 border-2 w-full"
-        >
-          {" "}
-        </textarea>
+        />
         <button type="submit" className="bg-orange-600 py-3 px-11 text-white">
           Add Todo
         </button>
